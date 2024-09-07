@@ -35,7 +35,7 @@
         "illuminate/database": "^9.0 || ^10.0 || ^11.0",
         "illuminate/support": "^9.0 || ^10.0 || ^11.0",
         "awobaz/compoships": "^2.0.4",
-        "staudenmeir/eloquent-eager-limit": "dev-master"
+        "staudenmeir/eloquent-eager-limit": "dev-main"
     },
     "require-dev": {
         "orchestra/testbench": "*",
@@ -44,6 +44,12 @@
         "nesbot/carbon": "^2.62.1",
         "ext-json": "*"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/LeX142/eloquent-eager-limit"
+        }
+    ],
     "minimum-stability": "dev",
     "prefer-stable": true
 }
